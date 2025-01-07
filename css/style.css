@@ -1,0 +1,84 @@
+body {
+  /* background-color: lightgray; */
+  display: block;
+  /* height: 2000px; */
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  color: #94a3b8;
+}
+
+/* menu */
+.menu-container {
+  /* position: fixed; */
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  border-bottom: 1px solid #e2e8f0;
+  /* height: 72px; */
+  width: 100%;
+  justify-content: space-between;
+  padding: 16px 64px;
+}
+
+/* logo */
+
+#menu-logo p {
+  font-weight: 700;
+  margin: 0;
+  font-family: "outfit", sans-serif;
+  color: #6729ff;
+  font-size: 24px;
+  line-height: 24px;
+  /* border: 1px solid #000; */
+}
+
+/* links */
+.menu-links button {
+  margin-bottom: auto;
+  font-family: "poppins";
+  size: 16px;
+  line-height: 24px;
+  /* teste */
+  /* border: 1px solid #000; */
+  background-color: #fff;
+}
+
+.btn {
+  font-family: "poppins";
+  text-decoration: none;
+  color: #94a3b8;
+  background-color: #fff;
+  height: 24px;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.menu-cadastro-login a {
+  text-decoration: none;
+  padding: 12px 32px;
+  font-family: "poppins";
+  border-radius: 8px;
+}
+#inicio {
+  color: #6729FF;
+}
+
+
+/* botão de cadastro */
+#button-cadastro {
+  /* padding: 12px 32px; */
+  background-color: #fff;
+  color: #94a3b8;
+}
+
+/* botão fazer login */
+#button-login {
+  /* font-family: "poppins"; */
+  /* padding: 12px 32px; */
+  background-color: #6729ff;
+  color: #fff;
+  margin-right: 64px;
+}
