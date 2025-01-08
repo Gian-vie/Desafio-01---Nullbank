@@ -1,30 +1,25 @@
 body {
   /* background-color: lightgray; */
-  display: block;
+  display: flex;
   /* height: 2000px; */
-}
-
-button {
-  border: none;
-  border-radius: 8px;
-  color: #94a3b8;
 }
 
 /* menu */
 .menu-container {
-  /* position: fixed; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 96%;
   display: flex;
   flex-flow: wrap;
-  justify-content: center;
   border-bottom: 1px solid #e2e8f0;
-  /* height: 72px; */
-  width: 100%;
+  height: 30px;
   justify-content: space-between;
   padding: 16px 64px;
+  background-color: #fff;
 }
 
 /* logo */
-
 #menu-logo p {
   font-weight: 700;
   margin: 0;
@@ -32,20 +27,9 @@ button {
   color: #6729ff;
   font-size: 24px;
   line-height: 24px;
-  /* border: 1px solid #000; */
 }
 
 /* links */
-.menu-links button {
-  margin-bottom: auto;
-  font-family: "poppins";
-  size: 16px;
-  line-height: 24px;
-  /* teste */
-  /* border: 1px solid #000; */
-  background-color: #fff;
-}
-
 .btn {
   font-family: "poppins";
   text-decoration: none;
@@ -56,16 +40,16 @@ button {
   border-radius: 8px;
 }
 
+#inicio {
+  color: #6729ff;
+}
+
 .menu-cadastro-login a {
   text-decoration: none;
   padding: 12px 32px;
   font-family: "poppins";
   border-radius: 8px;
 }
-#inicio {
-  color: #6729FF;
-}
-
 
 /* botão de cadastro */
 #button-cadastro {
@@ -81,4 +65,220 @@ button {
   background-color: #6729ff;
   color: #fff;
   margin-right: 64px;
+}
+
+
+/* PAGINA */
+
+/* Container 1 */
+.container1 {
+  padding: 0px 50px;
+  left: 0;
+  top: 0;
+  width: 50%;
+  max-height: 697px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+#texto1 {
+  /* width: 50%; */
+}
+
+#title1 {
+  line-height: 73.6px;
+  font-family: "outfit", sans-serif;
+  font-weight: 600;
+  width: 503px;
+  font-size: 64px;
+  color: #475569;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 90px;
+}
+
+#description1 p {
+  margin: 0;
+  width: 503px;
+  color: #64748b;
+  font-family: "poppins";
+  font-size: 16px;
+}
+
+.btns1 {
+  padding: 50px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.btn1 {
+  background-color: #eee5ff;
+  color: #6729ff;
+  text-decoration: none;
+  width: 260px;
+  height: 40px;
+  padding: 12px 32px;
+  font-family: "poppins";
+  border-radius: 8px;
+}
+
+#saiba-mais {
+  padding: 12px;
+  background-color: #fff;
+  color: #64748b;
+  font-size: 18px;
+  font-family: "poppins";
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* parte de clientes */
+#milhoes-clientes {
+  padding: 50px 0;
+}
+
+.clientes-imagens {
+  height: 45px;
+}
+
+.clientes-imagens div {
+  height: 45px;
+  width: 45px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+/* imagens dos clientes */
+#cliente-image1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/cliente1.png");
+}
+#cliente-image2 {
+  position: relative;
+  left: 30px;
+  top: -49px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/cliente2.png");
+}
+#cliente-image3 {
+  position: relative;
+  left: 60px;
+  top: -98px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/cliente3.png");
+}
+#cliente-image4 {
+  position: relative;
+  left: 90px;
+  top: -147px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/cliente4.png");
+}
+#cliente-image5 {
+  position: relative;
+  left: 120px;
+  top: -196px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/cliente5.png");
+}
+#cliente-image6 {
+  position: relative;
+  left: 150px;
+  top: -245px;
+  background-color: #eee5ff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/icons/user-round.png");
+}
+
+.cliente-p {
+  font-family: "poppins";
+  color: #94a3b8;
+}
+
+#baner1-container {
+  top: 0px;
+  right: 0px;
+  background-color: #6729ff;
+  width: 50%;
+  height: 698px;
+  padding: 0px 50px;
+  align-content: end;
+
+}
+
+#baner1-imagem {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 390px;
+  height: 610px;
+  background-image: url(../img/app.png);
+}
+
+/* baloes flutuantes */
+
+#balloom-container {
+  height: 0;
+}
+
+/* configuraçoes gerais */
+.balloom {
+  display: flex;
+  position: relative;
+  box-shadow: 0px 3px 7px #67748a33;
+  height: 48px;
+  padding: 4px 8px 4px 4px;
+  border-radius: 8px;
+  gap: 10px;
+  background-color: #fff;
+}
+
+.balloom p{
+  color: #475569;
+  font-size: 14px;
+  font-family: "poppins";
+  align-items: center;
+}
+
+.balloom-img {
+  max-height: 40px;
+  width: 40px;
+  border-radius: 6.83px;
+  padding: 8px;
+  background-color: #eee5ff;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+#balloom1 {
+  width: 290px;
+  top: -290px;
+  left: -20px;
+}
+
+#balloom2 {
+  width: 210px;
+  top: -570px;
+  left: 330px;
+}
+
+#balloom3 {
+  width: 239px;
+  top: -265px;
+  left: 350px;
+}
+
+#balloom1 .balloom-img {
+  background-image: url(../img/icons/earth.png);
+}
+#balloom2 .balloom-img {
+  background-image: url(../img/icons/circle-dollar-sign.svg);
+}
+#balloom3 .balloom-img {
+  background-image: url(../img/icons//user-round.png);
 }
