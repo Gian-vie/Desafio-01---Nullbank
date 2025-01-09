@@ -66,14 +66,11 @@
   /* margin-right: 64px; */
 }
 
-
-
-
 /* PAGINA */
 
 /* Container 1 */
 
-#container1{
+#container1 {
   width: 100%;
   display: inline-flex;
 }
@@ -214,7 +211,6 @@
   height: 698px;
   padding: 0px 50px;
   align-content: end;
-
 }
 
 #baner1-imagem {
@@ -244,7 +240,7 @@
   background-color: #fff;
 }
 
-.balloom p{
+.balloom p {
   color: #475569;
   font-size: 14px;
   font-family: "poppins";
@@ -260,7 +256,6 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-
 
 #balloom1 {
   width: 290px;
@@ -290,10 +285,9 @@
   background-image: url(../img/icons//user-round.png);
 }
 
-
 /* layout 2 */
 
-#container2{
+#container2 {
   /* background-color: #475569; */
   margin-left: auto;
   margin-right: auto;
@@ -305,22 +299,22 @@
   justify-content: space-between;
 }
 
-#container2-texto{
+#container2-texto {
   background-color: #fff;
   height: 256px;
   width: 418px;
   font-family: "poppins";
 }
 
-#container2-title1{
+#container2-title1 {
   margin: 0;
   font-size: 16px;
   color: #6729ff;
   font-weight: 700;
 }
-#container2-title2{
+#container2-title2 {
   margin: 0;
-  color:#475569;
+  color: #475569;
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
@@ -331,22 +325,21 @@
   color:#6729ff;
 } */
 
-#container2-description{
+#container2-description {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   color: #64748b;
 }
 
-#container2-link{
+#container2-link {
   display: inline-flex;
   height: 24px;
   gap: 12px;
   align-items: center;
 }
 
-
-#container2-information{
+#container2-information {
   text-decoration: none;
   color: #6729ff;
   font-size: 16px;
@@ -354,17 +347,16 @@
   line-height: 16px;
 }
 
-#container2-img{
+#container2-img {
   background-image: url(../img/icons/arrow-right.png);
   height: 24px;
   width: 24px;
   background-position: center;
   background-repeat: no-repeat;
-
 }
 
 /* cards */
-#container2-cards{
+#container2-cards {
   /* background-color: #64748b; */
   height: 512px;
   width: 728px;
@@ -373,7 +365,7 @@
   justify-content: space-between;
 }
 
-.card2{
+.card2 {
   border: 1px solid #e2e8f0;
   border-radius: 8px;
   background-color: #fff;
@@ -382,7 +374,7 @@
   margin-bottom: 16px;
 }
 
-.card2-title{
+.card2-title {
   align-items: center;
   display: inline-flex;
   margin-top: 20px;
@@ -390,7 +382,7 @@
   height: 48px;
   gap: 16px;
 }
-.card2-title p{
+.card2-title p {
   color: #6729ff;
   text-align: center;
   font-family: "outfit";
@@ -398,15 +390,15 @@
   font-weight: 600;
   line-height: 25.2px;
 }
-.card2-img{
-  background-color: #EEE5FF;
+.card2-img {
+  background-color: #eee5ff;
   background-position: center;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   height: 48px;
   width: 48px;
   border-radius: 8px;
 }
-.card2-description{
+.card2-description {
   margin-left: 20px;
   margin-right: 20px;
   font-family: "poppins";
@@ -416,61 +408,56 @@
   color: #64748b;
 }
 
-#rewards{
+#rewards {
   width: 380px;
 }
-#discount{
+#discount {
   width: 330px;
-
 }
-#cashback{
+#cashback {
   width: 317px;
 }
-#international-card{
+#international-card {
   width: 395px;
 }
-#digital-card{
+#digital-card {
   border: none;
   width: 728px;
   margin-bottom: 0;
-  background-color: #F3F2FF;
+  background-color: #f3f2ff;
 }
 
-#digital-card-text{
+#digital-card-text {
   width: 344px;
 }
 
-
-#digital-card .card2-img{
+#digital-card .card2-img {
   background-image: url(../img/icons/wallet-minimal.png);
   background-color: #fff;
   background-position: center;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   height: 48px;
   width: 48px;
   border-radius: 8px;
 }
-#rewards .card2-img{
+#rewards .card2-img {
   background-image: url(../img/icons/gift.png);
 }
-#discount .card2-img{
+#discount .card2-img {
   background-image: url(../img/icons/percent.png);
-
 }
-#cashback .card2-img{
+#cashback .card2-img {
   background-image: url(../img/icons/banknote.png);
-
 }
-#international-card .card2-img{
+#international-card .card2-img {
   background-image: url(../img/icons/credit-card.png);
-
 }
 
-#cards-draws{
+#cards-draws {
   display: inline-flex;
 }
 
-#card-draw1{
+#card-draw1 {
   width: 150px;
   height: 164.44px;
   border-radius: 8px;
@@ -480,7 +467,7 @@
   left: 420px;
   transform: rotate(92.02deg);
 }
-#card-draw2{
+#card-draw2 {
   width: 150px;
   height: 164.44px;
   border-radius: 8px;
@@ -491,7 +478,7 @@
   transform: rotate(92.02deg);
 }
 /* tampando a parte de baixo */
-#card-draw3{
+#card-draw3 {
   position: relative;
   background-color: #fff;
   height: 70px;
@@ -500,9 +487,8 @@
   top: -3px;
 }
 
-
 /* Layout 3 */
-#container3{
+#container3 {
   justify-content: space-between;
   display: flex;
   margin-top: 104px;
@@ -513,83 +499,83 @@
   height: 637px;
 }
 
-#container3-baner{
+#container3-baner {
   height: 637px;
   width: 592px;
   align-content: end;
 }
 
-#container3-text{
+#container3-text {
   width: 488px;
   height: 637px;
   font-family: "poppins";
 }
 
-#baner-img{
+#baner-img {
   position: relative;
-  background-image: url(../img/app\ \(1\).png);
+  background-image: url(../img/app1.png);
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   height: 609px;
   width: 380px;
-  box-shadow: 0px 16px 32px #A3AEC01A;
+  box-shadow: 0px 16px 32px #a3aec01a;
 }
 
-#baner-back-div{
+#baner-back-div {
   height: 0;
 }
 
-#baner-back{
+#baner-back {
   border-radius: 20px;
   position: relative;
   top: 246px;
-  background-color: #EEE5FF;
+  background-color: #eee5ff;
   height: 363px;
   width: 592px;
 }
 
-#container3-title1{
+#container3-title1 {
   margin-top: 38px;
   font-size: 16px;
   color: #6729ff;
   font-weight: 700;
 }
-#container3-title2{
+#container3-title2 {
   width: 416px;
   margin: 0;
-  color:#475569;
+  color: #475569;
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
   font-family: "outfit";
 }
 
-#container3-description{
+#container3-description {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   color: #64748b;
 }
 
-#cards3{
+#cards3 {
   margin-top: 64px;
   height: 247px;
 }
 
-.card3{
+.card3 {
   gap: 16px;
   display: inline-flex;
 }
 
-.container3-icon{
+.container3-icon {
   background-color: #6729ff;
   height: 48px;
   width: 48px;
   border-radius: 12px;
 }
 
-.card3-text{
+.card3-text {
   display: inline;
   justify-content: center;
   margin-bottom: 32px;
@@ -598,52 +584,51 @@
   margin: 0;
 }
 
-#container3-card1 .container3-icon{
+#container3-card1 .container3-icon {
   background-image: url(../img/icons/banknote1.png);
   background-position: center;
   background-repeat: no-repeat;
   width: 60px;
 }
 
-#container3-card2 .container3-icon{
+#container3-card2 .container3-icon {
   background-image: url(../img/icons/gift1.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-#container3-card3 .container3-icon{
+#container3-card3 .container3-icon {
   background-image: url(../img/icons/shield.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-
-.card3-title{
+.card3-title {
   color: #6729ff;
   font-size: 20px;
   font-family: "outfit";
   font-weight: 600;
 }
 
-.card3-description{
+.card3-description {
   font-family: "poppins";
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color:#64748b;
+  color: #64748b;
 }
 
-#container4{
+#container4 {
   align-content: end;
   margin-top: 120px;
   justify-content: space-between;
   display: inline-flex;
   width: 100%;
   height: 534px;
-  background-color: #6729FF;
+  background-color: #6729ff;
 }
 
-#container4-text{
+#container4-text {
   margin-left: 112px;
   height: 278px;
   width: 539px;
@@ -652,50 +637,50 @@
   color: #fff;
   font-family: "poppins";
 }
-#container4-title1{
+#container4-title1 {
   margin: 0;
   font-weight: 700;
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 10%;
 }
-#container4-title2{
+#container4-title2 {
   margin: 0;
   font-family: "outfit";
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
 }
-#container4-description{
+#container4-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
 
-#container4-link{
+#container4-link {
   margin-top: 48px;
   display: inline-flex;
   gap: 26px;
 }
-.container4-links{
-  display: inline-flex;
+
+.container4-links a {
+  justify-content: space-around;
+  padding: 12px 16px;
+  border-radius: 8px;
   height: 46.18px;
   width: 155.07px;
+  background-color: #f3f2ff;
+  display: inline-flex;
   align-items: center;
-  background-color: #F3F2FF;
-  padding: 12px 16px;
   gap: 12px;
-  border-radius: 8px;
-}
-.container4-links a{
-  color: #6729FF;
+  color: #6729ff;
   text-decoration: none;
   font-family: "poppins";
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
 }
-#container4-google-img{
+#container4-google-img {
   background-image: url(../img/icons/playStore.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -703,7 +688,7 @@
   width: 24px;
 }
 
-#container4-apple-img{
+#container4-apple-img {
   background-image: url(../img/icons/apple.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -711,8 +696,7 @@
   width: 24px;
 }
 
-#container4-baner{
-
+#container4-baner {
   height: 349.52px;
   max-width: 574px;
   margin: auto;
@@ -722,24 +706,24 @@
   align-items: end;
 }
 
-#app-image3{
+#app-image3 {
   position: relative;
-  left: -200px;
+  left: -185px;
   top: -453.3px;
-  background-image: url(../img/app\ \(2\).png);
+  background-image: url(../img/app2.png);
   height: 453.3px;
   width: 380px;
-  box-shadow: 0px 16px 35px #A3AEC01A;
+  box-shadow: 0px 16px 35px #a3aec01a;
 }
-#app-image4{
-  background-size:auto;
-  background-image: url(../img/app\ \(3\).png);
+#app-image4 {
+  background-size: auto;
+  background-image: url(../img/app3.png);
   height: 349.52px;
   width: 390px;
-  box-shadow: 0px 16px 35px #A3AEC01A;
+  box-shadow: 0px 16px 35px #a3aec01a;
 }
 
-#container5{
+#container5 {
   background-image: url(../img/Rectangle\ 3603.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -747,9 +731,9 @@
   text-align: center;
   height: 496px;
   width: 100%;
-  background-color: #6729FF;
+  background-color: #6729ff;
 }
-#container5-text{
+#container5-text {
   margin: auto;
   width: 641px;
   font-family: "outfit";
@@ -759,8 +743,8 @@
   color: #fff;
   margin-bottom: 20px;
 }
-#container5-link{
-  background-color: #6729FF;
+#container5-link {
+  background-color: #6729ff;
   padding: 12px 32px;
   gap: 8px;
   border-radius: 8px;
@@ -771,3 +755,51 @@
   font-size: 16px;
   line-height: 16px;
 }
+
+/* #footer */
+
+#footer-text {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  align-content: center;
+  background-color: #475569;
+  margin-top: 40px;
+  height: 156px;
+  width: 1216px;
+}
+
+#footer-links {
+  display: flex;
+  justify-content: space-between;
+  background-color: #64748b;
+  height: 156px;
+  width: 800px;
+}
+
+.footer-div {
+  display: inline;
+  width: 173px;
+  gap: 24px;
+}
+
+.footer-links-div {
+  display: inline-block;
+  gap: 20px;
+}
+
+.footer-links-div a {
+  height: 24px;
+}
+
+#footer-for-you
+  #footer-nullbank
+  #footer-service
+  #footer-support
+  #footer-newslatter
+  #footer-base
+  #footer-rights
+  #footer-logo
+  #footer-use
