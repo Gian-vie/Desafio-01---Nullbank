@@ -444,7 +444,8 @@
   background-image: url(../img/icons/wallet-minimal.png);
   background-color: #fff;
   background-position: center;
-  background-repeat: no-repeat;  height: 48px;
+  background-repeat: no-repeat;  
+  height: 48px;
   width: 48px;
   border-radius: 8px;
 }
@@ -506,7 +507,7 @@
   margin-top: 104px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #475569;
+  border: 1px solid 000;
   width: 1184px;
   height: 637px;
 }
@@ -518,7 +519,6 @@
 }
 
 #container3-text{
-  background-color: #d1d1d1;
   width: 488px;
   height: 637px;
   font-family: "poppins";
@@ -583,7 +583,6 @@
 }
 
 .container3-icon{
-  justify-content: center;
   background-color: #6729ff;
   height: 48px;
   width: 48px;
@@ -593,7 +592,42 @@
 .card3-text{
   display: inline;
   justify-content: center;
+  margin-bottom: 32px;
 }
 .card3-text p {
   margin: 0;
+}
+
+#container3-card1 .container3-icon{
+  background-image: url(../img/icons/banknote1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#container3-card2 .container3-icon{
+  background-image: url(../img/icons/gift1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#container3-card3 .container3-icon{
+  background-image: url(../img/icons/shield.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.card3-title{
+  color: #6729ff;
+  font-size: 20px;
+  font-family: "outfit";
+  font-weight: 600;
+}
+
+.card3-description{
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color:#64748b;
 }
