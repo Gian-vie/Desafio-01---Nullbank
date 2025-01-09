@@ -401,7 +401,8 @@
 .card2-img{
   background-color: #EEE5FF;
   background-position: center;
-  background-repeat: no-repeat;  height: 48px;
+  background-repeat: no-repeat;  
+  height: 48px;
   width: 48px;
   border-radius: 8px;
 }
@@ -430,9 +431,9 @@
 }
 #digital-card{
   border: none;
-    width: 728px;
-    margin-bottom: 0;
-    background-color: #F3F2FF;
+  width: 728px;
+  margin-bottom: 0;
+  background-color: #F3F2FF;
 }
 
 #digital-card-text{
@@ -573,13 +574,12 @@
 
 #cards3{
   margin-top: 64px;
-  gap: 32px;
   height: 247px;
 }
 
 .card3{
-  display: inline-flex;
   gap: 16px;
+  display: inline-flex;
 }
 
 .container3-icon{
@@ -602,6 +602,7 @@
   background-image: url(../img/icons/banknote1.png);
   background-position: center;
   background-repeat: no-repeat;
+  width: 60px;
 }
 
 #container3-card2 .container3-icon{
@@ -630,4 +631,143 @@
   font-size: 16px;
   line-height: 24px;
   color:#64748b;
+}
+
+#container4{
+  align-content: end;
+  margin-top: 120px;
+  justify-content: space-between;
+  display: inline-flex;
+  width: 100%;
+  height: 534px;
+  background-color: #6729FF;
+}
+
+#container4-text{
+  margin-left: 112px;
+  height: 278px;
+  width: 539px;
+  align-items: center;
+  margin: auto;
+  color: #fff;
+  font-family: "poppins";
+}
+#container4-title1{
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 10%;
+}
+#container4-title2{
+  margin: 0;
+  font-family: "outfit";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+#container4-description{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#container4-link{
+  margin-top: 48px;
+  display: inline-flex;
+  gap: 26px;
+}
+.container4-links{
+  display: inline-flex;
+  height: 46.18px;
+  width: 155.07px;
+  align-items: center;
+  background-color: #F3F2FF;
+  padding: 12px 16px;
+  gap: 12px;
+  border-radius: 8px;
+}
+.container4-links a{
+  color: #6729FF;
+  text-decoration: none;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+#container4-google-img{
+  background-image: url(../img/icons/playStore.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+}
+
+#container4-apple-img{
+  background-image: url(../img/icons/apple.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+}
+
+#container4-baner{
+
+  height: 349.52px;
+  max-width: 574px;
+  margin: auto;
+  margin-bottom: 0;
+  margin-right: 112px;
+  align-content: end;
+  align-items: end;
+}
+
+#app-image3{
+  position: relative;
+  left: -200px;
+  top: -453.3px;
+  background-image: url(../img/app\ \(2\).png);
+  height: 453.3px;
+  width: 380px;
+  box-shadow: 0px 16px 35px #A3AEC01A;
+}
+#app-image4{
+  background-size:auto;
+  background-image: url(../img/app\ \(3\).png);
+  height: 349.52px;
+  width: 390px;
+  box-shadow: 0px 16px 35px #A3AEC01A;
+}
+
+#container5{
+  background-image: url(../img/Rectangle\ 3603.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  align-content: center;
+  text-align: center;
+  height: 496px;
+  width: 100%;
+  background-color: #6729FF;
+}
+#container5-text{
+  margin: auto;
+  width: 641px;
+  font-family: "outfit";
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 105.6px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+#container5-link{
+  background-color: #6729FF;
+  padding: 12px 32px;
+  gap: 8px;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
 }
