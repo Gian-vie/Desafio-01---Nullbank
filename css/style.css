@@ -1,8 +1,6 @@
-body {
-  /* background-color: lightgray; */
-  display: flex;
-  /* height: 2000px; */
-}
+/* body {
+  width: 1440px;
+} */
 
 /* menu */
 .menu-container {
@@ -14,7 +12,7 @@ body {
   flex-flow: wrap;
   border-bottom: 1px solid #e2e8f0;
   height: 30px;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 16px 64px;
   background-color: #fff;
 }
@@ -64,14 +62,21 @@ body {
   /* padding: 12px 32px; */
   background-color: #6729ff;
   color: #fff;
-  margin-right: 64px;
+  /* margin-right: 64px; */
 }
+
+
 
 
 /* PAGINA */
 
 /* Container 1 */
-.container1 {
+
+#container1{
+  width: 100%;
+  display: inline-flex;
+}
+.container1-texto {
   padding: 0px 50px;
   left: 0;
   top: 0;
@@ -80,9 +85,9 @@ body {
   border-bottom: 1px solid #e2e8f0;
 }
 
-#texto1 {
-  /* width: 50%; */
-}
+/* #texto1 {
+  width: 50%;
+} */
 
 #title1 {
   line-height: 73.6px;
@@ -282,3 +287,213 @@ body {
 #balloom3 .balloom-img {
   background-image: url(../img/icons//user-round.png);
 }
+
+
+/* layout 2 */
+
+#container2{
+  margin-top: auto;
+  /* background-color: #475569; */
+  margin-left: auto;
+  margin-right: auto;
+  height: 512px;
+  width: 1217px;
+  margin-top: 70px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+#container2-texto{
+  background-color: #fff;
+  height: 256px;
+  width: 418px;
+  font-family: "poppins";
+}
+
+#container2-title1{
+  margin: 0;
+  font-size: 16px;
+  color: #6729ff;
+  font-weight: 700;
+}
+#container2-title2{
+  margin: 0;
+  color:#475569;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "outfit";
+}
+/* tentativa de colocar aa cor roxa pelo css em "Nullbank"*/
+/* #null-p{
+  color:#6729ff;
+} */
+
+#container2-description{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #64748b;
+}
+
+#container2-link{
+  display: inline-flex;
+  height: 24px;
+  gap: 12px;
+  align-items: center;
+}
+
+
+#container2-information{
+  text-decoration: none;
+  color: #6729ff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+#container2-img{
+  background-image: url(../img/icons/arrow-right.png);
+  height: 24px;
+  width: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+/* cards */
+#container2-cards{
+  /* background-color: #64748b; */
+  height: 512px;
+  width: 728px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.card2{
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #fff;
+  max-height: 160px;
+  width: 317px;
+  margin-bottom: 16px;
+}
+
+.card2-title{
+  align-items: center;
+  display: inline-flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 48px;
+  gap: 16px;
+}
+.card2-title p{
+  color: #6729ff;
+  text-align: center;
+  font-family: "outfit";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25.2px;
+}
+.card2-img{
+  background-color: #EEE5FF;
+  background-position: center;
+  background-repeat: no-repeat;  height: 48px;
+  width: 48px;
+  border-radius: 8px;
+}
+.card2-description{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "poppins";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #64748b;
+}
+
+#rewards{
+  width: 380px;
+}
+#discount{
+  width: 330px;
+
+}
+#cashback{
+  width: 317px;
+}
+#international-card{
+  width: 395px;
+}
+#digital-card{
+  border: none;
+    width: 728px;
+    margin-bottom: 0;
+    background-color: #F3F2FF;
+}
+
+#digital-card-text{
+  width: 344px;
+}
+
+
+#digital-card .card2-img{
+  background-image: url(../img/icons/wallet-minimal.png);
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;  height: 48px;
+  width: 48px;
+  border-radius: 8px;
+}
+#rewards .card2-img{
+  background-image: url(../img/icons/gift.png);
+}
+#discount .card2-img{
+  background-image: url(../img/icons/percent.png);
+
+}
+#cashback .card2-img{
+  background-image: url(../img/icons/banknote.png);
+
+}
+#international-card .card2-img{
+  background-image: url(../img/icons/credit-card.png);
+
+}
+
+#cards-draws{
+  display: inline-flex;
+}
+
+#card-draw1{
+  width: 150px;
+  height: 164.44px;
+  border-radius: 8px;
+  background-color: #fff;
+  position: relative;
+  top: -90px;
+  left: 420px;
+  transform: rotate(92.02deg);
+}
+#card-draw2{
+  width: 150px;
+  height: 164.44px;
+  border-radius: 8px;
+  background-color: #6729ff;
+  position: relative;
+  top: -100px;
+  left: 380px;
+  transform: rotate(92.02deg);
+}
+/* tampando a parte de baixo */
+#card-draw3{
+  position: relative;
+  background-color: #fff;
+  height: 70px;
+  width: 260px;
+  left: 200px;
+  top: -3px;
+}
+
