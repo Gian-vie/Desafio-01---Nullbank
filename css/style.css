@@ -4,6 +4,7 @@
 
 /* menu */
 .menu-container {
+  z-index: 1;
   position: fixed;
   top: 0;
   left: 0;
@@ -204,6 +205,7 @@
   color: #94a3b8;
 }
 
+/* Baner */
 #baner1-container {
   top: 0px;
   right: 0px;
@@ -292,7 +294,6 @@
 /* layout 2 */
 
 #container2{
-  margin-top: auto;
   /* background-color: #475569; */
   margin-left: auto;
   margin-right: auto;
@@ -497,3 +498,102 @@
   top: -3px;
 }
 
+
+/* Layout 3 */
+#container3{
+  justify-content: space-between;
+  display: flex;
+  margin-top: 104px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #475569;
+  width: 1184px;
+  height: 637px;
+}
+
+#container3-baner{
+  height: 637px;
+  width: 592px;
+  align-content: end;
+}
+
+#container3-text{
+  background-color: #d1d1d1;
+  width: 488px;
+  height: 637px;
+  font-family: "poppins";
+}
+
+#baner-img{
+  position: relative;
+  background-image: url(../img/app\ \(1\).png);
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 609px;
+  width: 380px;
+  box-shadow: 0px 16px 32px #A3AEC01A;
+}
+
+#baner-back-div{
+  height: 0;
+}
+
+#baner-back{
+  border-radius: 20px;
+  position: relative;
+  top: 246px;
+  background-color: #EEE5FF;
+  height: 363px;
+  width: 592px;
+}
+
+#container3-title1{
+  margin-top: 38px;
+  font-size: 16px;
+  color: #6729ff;
+  font-weight: 700;
+}
+#container3-title2{
+  width: 416px;
+  margin: 0;
+  color:#475569;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "outfit";
+}
+
+#container3-description{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #64748b;
+}
+
+#cards3{
+  margin-top: 64px;
+  gap: 32px;
+  height: 247px;
+}
+
+.card3{
+  display: inline-flex;
+  gap: 16px;
+}
+
+.container3-icon{
+  justify-content: center;
+  background-color: #6729ff;
+  height: 48px;
+  width: 48px;
+  border-radius: 12px;
+}
+
+.card3-text{
+  display: inline;
+  justify-content: center;
+}
+.card3-text p {
+  margin: 0;
+}
