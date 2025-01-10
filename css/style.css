@@ -359,7 +359,6 @@ margin: 0px;
 
 /* cards */
 #container2-cards {
-  /* background-color: #64748b; */
   height: 512px;
   width: 728px;
   display: flex;
@@ -956,4 +955,76 @@ margin: 0px;
 
 /* ///////////////////////////////// */
 /* Pagina de cadastro */
+
+#cadastro-container1{
+  align-content: center;
+  background-color: #6729ff;
+  margin-top: 63px;
+  height: 340px;
+  width: 100%;
+  padding-left: 112px;
+}
+
+#cadastro-container1 h1{
+  color: #fff;
+  margin: 0;
+  width: 944px;
+  font-family: "outfit";
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 73.06px;
+}
+
+#cadastro-container1 p{
+  color: #F8FAFC;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 416px;
+  margin: 0;
+}
+
+/* contato cadastro */
+#contato-div{
+  align-items: center;
+  margin: auto;
+  margin-top: 64px;
+  margin-bottom: 114px;
+  border: 1px solid black;
+  height: 927px;
+  max-width: 1216px;
+  gap: 64px;
+}
+
+.contato-divs-internas{
+  display: flex;
+  justify-content: space-between;
+  width: 1008px;
+  padding: 0px 104px 64px 104px;
+  border-bottom: 1px solid #E2E8F0;
+}
+
+#contato-talk{
+  border: none;
+  margin-bottom: 0;
+}
+
+#contato-phone
+#contato-phone-token
+
+.contato-titulo
+.contato-description
+
+#contato-phone-numbers .contato-img
+#newsletter-links .contato-img
+#contato-talk .contato-img
+
+#contato-phone-numbers
+
+#newsletter-links
+
+
+#contato-submit
+
 
