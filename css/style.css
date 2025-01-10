@@ -1,25 +1,27 @@
-/* body {
-  width: 1440px;
-} */
+body {
+margin: 0px;
+}
 
 /* menu */
 .menu-container {
+  margin: 0px;
   z-index: 1;
   position: fixed;
   top: 0;
   left: 0;
-  width: 96%;
+  width: 100%;
   display: flex;
   flex-flow: wrap;
   border-bottom: 1px solid #e2e8f0;
   height: 30px;
   justify-content: space-around;
-  padding: 16px 64px;
+  padding: 16px 0px;
   background-color: #fff;
 }
 
 /* logo */
-#menu-logo p {
+#menu-logo a {
+  text-decoration: none;
   font-weight: 700;
   margin: 0;
   font-family: "outfit", sans-serif;
@@ -723,6 +725,8 @@
   box-shadow: 0px 16px 35px #a3aec01a;
 }
 
+
+/* layout 5 */
 #container5 {
   background-image: url(../img/Rectangle\ 3603.png);
   background-position: center;
@@ -949,3 +953,7 @@
   line-height: 18px;
   color: #94a3b8;
 }
+
+/* ///////////////////////////////// */
+/* Pagina de cadastro */
+
