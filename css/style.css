@@ -1,5 +1,8 @@
 body {
-margin: 0px;
+margin: 0;
+}
+div{
+  margin: 0;
 }
 
 /* menu */
@@ -1003,28 +1006,116 @@ margin: 0px;
   width: 1008px;
   padding: 0px 104px 64px 104px;
   border-bottom: 1px solid #E2E8F0;
+  margin-bottom: 64px;
 }
+
 
 #contato-talk{
   border: none;
   margin-bottom: 0;
 }
 
-#contato-phone
-#contato-phone-token
+.contato-text{
+  display: inline;
+}
 
-.contato-titulo
-.contato-description
+.contato-img{
+  margin-right: 20px;
+  min-height: 24px;
+  min-width: 24px;
+  max-height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-#contato-phone-numbers .contato-img
-#newsletter-links .contato-img
-#contato-talk .contato-img
+.contato-phone-token{
+  display: flex;
+  /* width: 318px; */
+}
 
-#contato-phone-numbers
+.contato-titulo{
+  color: #475569;
+  margin: 0;
+  font-family: "outfit";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38.4px;
+}
+.contato-description{
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #64748b;
+}
 
-#newsletter-links
+#contato-phone-numbers p{
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 16px;  
+  line-height: 24px;
+  color: #94A3B8;
+}
+
+#contato-phone .contato-img{
+  background-image: url(../img/icons/phone.png);
+}
+#contato-social .contato-img{
+background-image: url(../img/icons/globe.png);
+}
+#contato-talk .contato-img{
+  background-image: url(../img/icons/chat.png);
+}
+
+#contato-talk .contato-phone-token{
+  width: 318px;
+}
+
+#contato-imputs{
+  height: 454px;
+  width: 593px;
+  background-color: #475569;
+}
+
+.contato-imputs1{
+  display: inline-flex;
+  height: 68px;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 16px;/*-------------------------*/
+  background-color: #64748b;
+}
+
+.contato-imputs2{
+  display: inline-flex;
+  height: 278px;
+  width: 100%;
+  background-color: #64748b;
+}
 
 
-#contato-submit
 
+#contato-submit{
+  margin-left: auto;
+  margin-right: 0;
+  padding: 8px 16px;
+  border: none;
+  justify-content: space-between;
+  display: flex;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  height: 40px;
+  width: 215px;
+  border-radius: 8px;
+  background-color: #6729ff;
+}
 
+#contato-submit-image{
+  background-image: url(../img/icons/arrow-right2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 24px;
+  width: 24px;
+}
