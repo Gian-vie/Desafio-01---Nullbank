@@ -896,7 +896,7 @@ button:hover{
   border: none;
 }
 
-#footer-email-image {
+#footer-email-submit {
   background-image: url(../img/icons/arrow-right1.png);
   background-repeat: no-repeat;
   background-position: center;
