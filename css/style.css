@@ -329,10 +329,11 @@ button:hover{
   line-height: 48px;
   font-family: "outfit";
 }
-/* tentativa de colocar aa cor roxa pelo css em "Nullbank"*/
-/* #null-p{
+
+/*cor roxa em "Nullbank"*/
+#null-p{
   color:#6729ff;
-} */
+}
 
 #container2-description {
   font-size: 16px;
@@ -390,6 +391,7 @@ button:hover{
   height: 48px;
   gap: 16px;
 }
+
 .card2-title p {
   color: #6729ff;
   text-align: center;
@@ -398,6 +400,7 @@ button:hover{
   font-weight: 600;
   line-height: 25.2px;
 }
+
 .card2-img {
   background-color: #eee5ff;
   background-position: center;
@@ -406,6 +409,7 @@ button:hover{
   width: 48px;
   border-radius: 8px;
 }
+
 .card2-description {
   margin-left: 20px;
   margin-right: 20px;
@@ -419,15 +423,19 @@ button:hover{
 #rewards {
   width: 380px;
 }
+
 #discount {
   width: 330px;
 }
+
 #cashback {
   width: 317px;
 }
+
 #international-card {
   width: 395px;
 }
+
 #digital-card {
   border: none;
   width: 728px;
@@ -448,15 +456,19 @@ button:hover{
   width: 48px;
   border-radius: 8px;
 }
+
 #rewards .card2-img {
   background-image: url(../img/icons/gift.png);
 }
+
 #discount .card2-img {
   background-image: url(../img/icons/percent.png);
 }
+
 #cashback .card2-img {
   background-image: url(../img/icons/banknote.png);
 }
+
 #international-card .card2-img {
   background-image: url(../img/icons/credit-card.png);
 }
@@ -475,6 +487,7 @@ button:hover{
   left: 420px;
   transform: rotate(92.02deg);
 }
+
 #card-draw2 {
   width: 150px;
   height: 164.44px;
@@ -485,6 +498,7 @@ button:hover{
   left: 380px;
   transform: rotate(92.02deg);
 }
+
 /* tampando a parte de baixo */
 #card-draw3 {
   position: relative;
@@ -549,6 +563,7 @@ button:hover{
   color: #6729ff;
   font-weight: 700;
 }
+
 #container3-title2 {
   width: 416px;
   margin: 0;
@@ -588,6 +603,7 @@ button:hover{
   justify-content: center;
   margin-bottom: 32px;
 }
+
 .card3-text p {
   margin: 0;
 }
@@ -645,6 +661,7 @@ button:hover{
   color: #fff;
   font-family: "poppins";
 }
+
 #container4-title1 {
   margin: 0;
   font-weight: 700;
@@ -652,6 +669,7 @@ button:hover{
   line-height: 16px;
   letter-spacing: 10%;
 }
+
 #container4-title2 {
   margin: 0;
   font-family: "outfit";
@@ -659,6 +677,7 @@ button:hover{
   font-size: 40px;
   line-height: 48px;
 }
+
 #container4-description {
   font-weight: 400;
   font-size: 16px;
@@ -723,6 +742,7 @@ button:hover{
   width: 380px;
   box-shadow: 0px 16px 35px #a3aec01a;
 }
+
 #app-image4 {
   background-size: auto;
   background-image: url(../img/app3.png);
@@ -742,6 +762,7 @@ button:hover{
   width: 100%;
   background-color: #6729ff;
 }
+
 #container5-text {
   margin: auto;
   width: 641px;
@@ -861,6 +882,7 @@ button:hover{
   max-height: 40px;
   max-width: 280px;
 }
+
 #footer-email input {
   /* background-color: transparent; */
   border-radius: 8px;
@@ -873,6 +895,7 @@ button:hover{
   padding: 0;
   border: none;
 }
+
 #footer-email-image {
   background-image: url(../img/icons/arrow-right1.png);
   background-repeat: no-repeat;
@@ -890,6 +913,7 @@ button:hover{
   gap: 24px;
   display: inline-flex;
 }
+
 .newsletter-link {
   height: 24px;
   width: 24px;
@@ -900,16 +924,19 @@ button:hover{
   background-repeat: no-repeat;
   background-position: center;
 }
+
 #footer-twiter {
   background-image: url(../img/icons/twiter.png);
   background-repeat: no-repeat;
   background-position: center;
 }
+
 #footer-linkedin {
   background-image: url(../img/icons/linkedin.png);
   background-repeat: no-repeat;
   background-position: center;
 }
+
 #footer-instagram {
   background-image: url(../img/icons/instagram.png);
   background-repeat: no-repeat;
@@ -928,6 +955,7 @@ button:hover{
   height: 30px;
   justify-content: space-between;
 }
+
 #footer-rights {
   font-family: "poppins";
   font-weight: 400;
@@ -935,6 +963,7 @@ button:hover{
   line-height: 18px;
   color: #94a3b8;
 }
+
 #footer-logo a {
   text-decoration: none;
   font-weight: 700;
@@ -950,6 +979,7 @@ button:hover{
   justify-content: space-between;
   gap: 78px;
 }
+
 #footer-use a {
   text-decoration: none;
   font-family: "poppins";
@@ -958,5 +988,3 @@ button:hover{
   line-height: 18px;
   color: #94a3b8;
 }
-
-

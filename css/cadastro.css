@@ -1,227 +1,235 @@
-
 #inicio {
-    color: #94a3b8;
-  }
+  color: #94a3b8;
+}
 
-#contato{
-    color: #6729ff;
+#contato {
+  color: #6729ff;
 }
 
 /* Pagina de cadastro */
 
 #cadastro-container1 {
-    align-content: center;
-    background-color: #6729ff;
-    padding-left: 112px;
-    margin: 0;
-    margin-top: 63px;
-    height: 340px;
-    width: calc(100% - 112px);
-  }
-  
-  #cadastro-container1 h1 {
-    color: #fff;
-    margin: 0;
-    width: 944px;
-    font-family: "outfit";
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 73.06px;
-  }
-  
-  #cadastro-container1 p {
-    color: #f8fafc;
-    font-family: "poppins";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    width: 416px;
-    margin: 0;
-  }
-  
-  /* contato cadastro */
-  #contato-div {
-    align-items: center;
-    margin: auto;
-  
-    margin-top: 64px;
-    margin-bottom: 114px;
-    height: 927px;
-    max-width: 1216px;
-    gap: 64px;
-  }
-  
-  .contato-divs-internas {
-    display: flex;
-    justify-content: space-between;
-    width: 1008px;
-    padding: 0px 104px 64px 104px;
-    border-bottom: 1px solid #e2e8f0;
-    margin-bottom: 64px;
-  }
-  
-  #contato-talk {
-    border: none;
-    margin-bottom: 0;
-  }
-  
-  .contato-text {
-    display: inline;
-  }
-  
-  .contato-img {
-    margin-right: 20px;
-    min-height: 24px;
-    min-width: 24px;
-    max-height: 24px;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  .contato-phone-token {
-    display: flex;
-    /* width: 318px; */
-  }
-  
-  .contato-titulo {
+  align-content: center;
+  background-color: #6729ff;
+  padding-left: 112px;
+  margin: 0;
+  margin-top: 63px;
+  height: 340px;
+  width: calc(100% - 112px);
+}
+
+#cadastro-container1 h1 {
+  color: #fff;
+  margin: 0;
+  width: 944px;
+  font-family: "outfit";
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 73.06px;
+}
+
+#cadastro-container1 p {
+  color: #f8fafc;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 416px;
+  margin: 0;
+}
+
+/* contato cadastro */
+#contato-div {
+  align-items: center;
+  margin: auto;
+
+  margin-top: 64px;
+  margin-bottom: 114px;
+  height: 927px;
+  max-width: 1216px;
+  gap: 64px;
+}
+
+.contato-divs-internas {
+  display: flex;
+  justify-content: space-between;
+  width: 1008px;
+  padding: 0px 104px 64px 104px;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 64px;
+}
+
+#contato-talk {
+  border: none;
+  margin-bottom: 0;
+}
+
+.contato-text {
+  display: inline;
+}
+
+.contato-img {
+  margin-right: 20px;
+  min-height: 24px;
+  min-width: 24px;
+  max-height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contato-phone-token {
+  display: flex;
+  /* width: 318px; */
+}
+
+.contato-titulo {
+  color: #475569;
+  margin: 0;
+  font-family: "outfit";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38.4px;
+}
+
+.contato-description {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #64748b;
+}
+
+#contato-phone-numbers p {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #94a3b8;
+}
+
+/* coloração dos numeros */
+#contato-phone-numbers span{
     color: #475569;
-    margin: 0;
-    font-family: "outfit";
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 38.4px;
-  }
-  .contato-description {
-    font-family: "poppins";
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #64748b;
-  }
-  
-  #contato-phone-numbers p {
-    font-family: "poppins";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #94a3b8;
-  }
-  
-  #contato-phone .contato-img {
-    background-image: url(../img/icons/phone.png);
-  }
-  #contato-social .contato-img {
-    background-image: url(../img/icons/globe.png);
-  }
-  #contato-talk .contato-img {
-    background-image: url(../img/icons/chat.png);
-  }
-  
-  #contato-talk .contato-phone-token {
-    width: 318px;
-  }
-  
-  #contato-imputs {
-    height: 454px;
-    width: 593px;
-    /* background-color: #475569; */
-  }
-  
-  .contato-imputs1 {
-    flex-flow: wrap;
-    justify-content: space-between;
-    display: inline-flex;
-    height: 68px;
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 20px;
-  }
-  
-  .contato-imputs2 {
-    height: 278px;
-    width: 593px;
-  }
-  
-  #contato-submit {
-    margin-top: 24px;
-    margin-left: auto;
-    margin-right: 0;
-    padding: 8px 16px;
-    border: none;
-    justify-content: space-between;
-    display: flex;
-    font-family: "poppins";
-    font-weight: 500;
-    font-size: 16px;
-    color: #fff;
-    height: 40px;
-    width: 215px;
-    border-radius: 8px;
-    background-color: #6729ff;
-  }
-  
-  #contato-submit-image {
-    background-image: url(../img/icons/arrow-right2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 24px;
-    width: 24px;
-  }
-  
-  #contato-imputs label {
-    font-family: "outfit";
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #64748b;
-  }
-  
-  #contato-imputs input , textarea{
-    margin-top: 8px;
-    width: 100%;
-    max-width: 100%;
-    background-color: transparent;
-    padding: 8px 4px 4px 12px;
-    border-radius: 8px;
-    border: 1px solid #e2e8f0;
-    max-height: 100%;
-    /* texto do imput */
-    color: #000;
-    font-family: "poppins";
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 400;
-    resize: none;
-  }
-  
-  #contato-imputs input::placeholder , textarea::placeholder{
-    color: #94a3b8;
-    font-family: "poppins";
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 400;
-  }
-  
-  #contato-imputs1 input {
-    height: 40px;
-  }
-  
-  #contato-nome {
-    width: 247px;
-  }
-  
-  #contato-sobrenome {
-    width: 247px;
-    margin-right: 16px;
-  }
-  
-  #contato-email {
-    width: 577px;
-    height: 40px;
-  }
-  
-  #contato-mensage textarea {
-    width: 577px;
-    height: 238px;
-  }
-  
+}
+
+#contato-phone .contato-img {
+  background-image: url(../img/icons/phone.png);
+}
+
+#contato-social .contato-img {
+  background-image: url(../img/icons/globe.png);
+}
+
+#contato-talk .contato-img {
+  background-image: url(../img/icons/chat.png);
+}
+
+#contato-talk .contato-phone-token {
+  width: 318px;
+}
+
+#contato-imputs {
+  height: 454px;
+  width: 593px;
+  /* background-color: #475569; */
+}
+
+.contato-imputs1 {
+  flex-flow: wrap;
+  justify-content: space-between;
+  display: inline-flex;
+  height: 68px;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.contato-imputs2 {
+  height: 278px;
+  width: 593px;
+}
+
+#contato-submit {
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: 0;
+  padding: 8px 16px;
+  border: none;
+  justify-content: space-between;
+  display: flex;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  height: 40px;
+  width: 215px;
+  border-radius: 8px;
+  background-color: #6729ff;
+}
+
+#contato-submit-image {
+  background-image: url(../img/icons/arrow-right2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 24px;
+  width: 24px;
+}
+
+#contato-imputs label {
+  font-family: "outfit";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #64748b;
+}
+
+#contato-imputs input,
+textarea {
+  margin-top: 8px;
+  width: 100%;
+  max-width: 100%;
+  background-color: transparent;
+  padding: 8px 4px 4px 12px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  max-height: 100%;
+  /* texto do imput */
+  color: #000;
+  font-family: "poppins";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  resize: none;
+}
+
+#contato-imputs input::placeholder,
+textarea::placeholder {
+  color: #94a3b8;
+  font-family: "poppins";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+#contato-imputs1 input {
+  height: 40px;
+}
+
+#contato-nome {
+  width: 247px;
+}
+
+#contato-sobrenome {
+  width: 247px;
+  margin-right: 16px;
+}
+
+#contato-email {
+  width: 577px;
+  height: 40px;
+}
+
+#contato-mensage textarea {
+  width: 577px;
+  height: 238px;
+}
