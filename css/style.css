@@ -5,6 +5,10 @@ div {
   margin: 0;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 /* menu */
 .menu-container {
   margin: 0px;
@@ -1135,7 +1139,7 @@ div {
   border: 1px solid #e2e8f0;
   max-height: 100%;
   /* texto do imput */
-  color: #94a3b8;
+  color: #000;
   font-family: "poppins";
   font-size: 14px;
   line-height: 21px;
