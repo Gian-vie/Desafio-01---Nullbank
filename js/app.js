@@ -16,7 +16,7 @@ function validarEmail(email) {
 }
 
 function validarNomes(nome) {
-  const regexEmail = /[a-zA-Z]/;
+  const regexEmail = /^(?=.{3,25}$)[a-zA-Z0-9]/;
   return regexEmail.test(nome);
 }
 // contato page
