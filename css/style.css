@@ -61,18 +61,28 @@ button:hover{
 
 /* botão de cadastro */
 #button-cadastro {
-  /* padding: 12px 32px; */
   background-color: #fff;
   color: #94a3b8;
+  border: 2px solid transparent;
+}
+
+#button-cadastro:hover {
+  border-color: #6729ff;
+  background-color: #eee5ff;
+  color: #6729ff;
 }
 
 /* botão fazer login */
 #button-login {
-  /* font-family: "poppins"; */
-  /* padding: 12px 32px; */
   background-color: #6729ff;
   color: #fff;
-  /* margin-right: 64px; */
+  border: 2px solid transparent;
+}
+
+#button-login:hover {
+  border-color: #6729ff;
+  background-color: #eee5ff;
+  color: #6729ff;
 }
 
 /* PAGINA */
@@ -130,6 +140,13 @@ button:hover{
   padding: 12px 32px;
   font-family: "poppins";
   border-radius: 8px;
+  border: 2px solid transparent;
+
+}
+
+.btn1:hover{
+  border-color: #6729ff;
+
 }
 
 #saiba-mais {
@@ -140,6 +157,10 @@ button:hover{
   font-family: "poppins";
   font-weight: 600;
   text-decoration: none;
+}
+
+#saiba-mais:hover{
+  color: #6729ff;
 }
 
 /* parte de clientes */
@@ -784,6 +805,13 @@ button:hover{
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
+  border: 2px solid transparent;
+}
+
+#container5-link:hover{
+  color: #6729ff;
+  background-color: #eee5ff;
+  border-color: #6729ff;
 }
 
 /* #footer */

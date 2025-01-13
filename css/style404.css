@@ -1,64 +1,9 @@
 /* menu */
-.menu-container {
-  margin: 0px;
-  z-index: 1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  flex-flow: wrap;
-  border-bottom: 1px solid #e2e8f0;
-  height: 30px;
-  justify-content: space-around;
-  padding: 16px 0px;
-  background-color: #fff;
-}
-
-/* logo */
-#menu-logo a {
-  text-decoration: none;
-  font-weight: 700;
-  margin: 0;
-  font-family: "outfit", sans-serif;
-  color: #6729ff;
-  font-size: 24px;
-  line-height: 24px;
-}
-
-/* links */
-.btn {
-  font-family: "poppins";
-  text-decoration: none;
-  color: #94a3b8;
-  background-color: #fff;
-  height: 24px;
-  padding: 6px 12px;
-  border-radius: 8px;
-}
 
 #inicio {
   color: #94a3b8;
 }
 
-.menu-cadastro-login a {
-  text-decoration: none;
-  padding: 12px 32px;
-  font-family: "poppins";
-  border-radius: 8px;
-}
-
-/* botão de cadastro */
-#button-cadastro {
-  background-color: #fff;
-  color: #94a3b8;
-}
-
-/* botão fazer login */
-#button-login {
-  background-color: #6729ff;
-  color: #fff;
-}
 
 /* PAGINA 404 */
 
