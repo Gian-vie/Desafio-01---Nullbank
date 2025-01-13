@@ -32,8 +32,7 @@ footerEmailButton.addEventListener("click", () => {
     }
 
     if(validarEmail(emailImput)){
-        console.log("passou " + emailImput)
-
+        localStorage.setItem("Email", emailImput);
     }else{
         // texto de errro do email 
         footerEmailDiv.insertAdjacentElement("afterend", paragrafoErro);

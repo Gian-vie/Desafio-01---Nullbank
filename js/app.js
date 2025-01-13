@@ -44,7 +44,8 @@ contatoButtomSubmit.addEventListener("click", () => {
   document.querySelectorAll(".mensagem-erro").forEach((msg) => msg.remove());
 
   if (validarNomes(nomeInput)) {
-    setItem(Name, nomeInput);
+    console.log("Nome " + nomeInput)
+    // setItem(Name, nomeInput);
   } else {
     const erro = geraParagrafoErro("Ops, insira um nome válido!");
     erro.classList.add("mensagem-erro");
@@ -53,7 +54,8 @@ contatoButtomSubmit.addEventListener("click", () => {
   }
 
   if (validarNomes(lastNameInput)) {
-    setItem(LastName, lastNameInput);
+    console.log("Sobrenome " + lastNameInput)
+    // setItem(LastName, lastNameInput);
   } else {
     const erro = geraParagrafoErro("Ops, insira um sobrenome válido!");
     erro.classList.add("mensagem-erro");
@@ -62,7 +64,8 @@ contatoButtomSubmit.addEventListener("click", () => {
   }
 
   if (validarEmail(emailInput)) {
-    setItem(Email, emailInput);
+    console.log("Email " + emailInput)
+    // setItem(Email, emailInput);
   } else {
     const erro = geraParagrafoErro("Ops, insira um e-mail válido!");
     erro.classList.add("mensagem-erro");
@@ -77,6 +80,15 @@ contatoButtomSubmit.addEventListener("click", () => {
     contatoMesageDiv.appendChild(erro);
     validado = false;
     } else {
-        setItem(Mensagem, mensagemInput);
+        console.log("mensagem: " + mensagemInput)
+        // setItem(Mensagem, mensagemInput);
+    }
+
+    if(validado === true){
+        console.log("valores armazenados")
+        localStorage.setItem("Name", nomeInput);
+        localStorage.setItem("LastName", lastNameInput);
+        localStorage.setItem("Email", emailInput);
+        localStorage.setItem("Mensagem", mensagemInput);
     }
 });
