@@ -922,6 +922,7 @@ button:hover{
   width: 230px;
   padding: 0;
   border: none;
+  outline: none;
 }
 
 #footer-email-submit {

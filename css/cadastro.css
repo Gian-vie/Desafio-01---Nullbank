@@ -131,6 +131,7 @@
 #contato-imputs {
   height: 454px;
   width: 593px;
+
   /* background-color: #475569; */
 }
 
@@ -193,6 +194,7 @@ textarea {
   border-radius: 8px;
   border: 1px solid #e2e8f0;
   max-height: 100%;
+  outline: none;
   /* texto do imput */
   color: #000;
   font-family: "poppins";
