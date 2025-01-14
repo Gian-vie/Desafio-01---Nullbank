@@ -93,6 +93,5 @@ contatoButtomSubmit.addEventListener("click", () => {
     contatoLastname.value = ""
     contatoEmail.value = ""
     contatoMesage.value = ""
-    alert("dados submetidos")
   }
 });

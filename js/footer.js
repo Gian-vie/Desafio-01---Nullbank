@@ -38,4 +38,6 @@ footerEmailButton.addEventListener("click", () => {
         footerEmailDiv.insertAdjacentElement("afterend", paragrafoErro);
         paragrafoErro.appendChild(erroEmail)
     }
+    footerEmailInput.value = ""
+
 })

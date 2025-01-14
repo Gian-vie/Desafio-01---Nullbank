@@ -1,0 +1,690 @@
+#inicio {
+  color: #6729ff;
+}
+
+/* PAGINA */
+
+/* Container 1 */
+
+#container1 {
+  width: 100%;
+  display: inline-flex;
+}
+.container1-texto {
+  padding: 0px 50px;
+  left: 0;
+  top: 0;
+  width: 50%;
+  max-height: 697px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* #texto1 {
+    width: 50%;
+  } */
+
+#title1 {
+  line-height: 73.6px;
+  font-family: "outfit", sans-serif;
+  font-weight: 600;
+  width: 503px;
+  font-size: 64px;
+  color: #475569;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 90px;
+}
+
+#description1 p {
+  margin: 0;
+  width: 503px;
+  color: #64748b;
+  font-family: "poppins";
+  font-size: 16px;
+}
+
+.btns1 {
+  padding: 50px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.btn1 {
+  background-color: #eee5ff;
+  color: #6729ff;
+  text-decoration: none;
+  width: 260px;
+  height: 40px;
+  padding: 12px 32px;
+  font-family: "poppins";
+  border-radius: 8px;
+  border: 2px solid transparent;
+}
+
+.btn1:hover {
+  transition: 0.5s;
+  border-color: #6729ff;
+}
+
+#saiba-mais {
+  padding: 12px;
+  background-color: #fff;
+  color: #64748b;
+  font-size: 18px;
+  font-family: "poppins";
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#saiba-mais:hover {
+  color: #6729ff;
+  transition: 0.7s;
+}
+
+/* parte de clientes */
+#milhoes-clientes {
+  padding: 50px 0;
+}
+
+.clientes-imagens {
+  height: 45px;
+}
+
+.clientes-imagens div {
+  height: 45px;
+  width: 45px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+/* imagens dos clientes */
+#cliente-image1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/cliente1.png");
+}
+#cliente-image2 {
+  position: relative;
+  left: 30px;
+  top: -49px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/cliente2.png");
+}
+#cliente-image3 {
+  position: relative;
+  left: 60px;
+  top: -98px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/cliente3.png");
+}
+#cliente-image4 {
+  position: relative;
+  left: 90px;
+  top: -147px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/cliente4.png");
+}
+#cliente-image5 {
+  position: relative;
+  left: 120px;
+  top: -196px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/cliente5.png");
+}
+#cliente-image6 {
+  position: relative;
+  left: 150px;
+  top: -245px;
+  background-color: #eee5ff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/icons/user-round.png");
+}
+
+.cliente-p {
+  font-family: "poppins";
+  color: #94a3b8;
+}
+
+/* Baner */
+#baner1-container {
+  top: 0px;
+  right: 0px;
+  background-color: #6729ff;
+  width: 50%;
+  height: 698px;
+  padding: 0px 50px;
+  align-content: end;
+}
+
+#baner1-imagem {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 390px;
+  height: 610px;
+  background-image: url(../img/app.png);
+}
+
+/* baloes flutuantes */
+
+#balloom-container {
+  height: 0;
+}
+
+/* configuraçoes gerais */
+.balloom {
+  display: flex;
+  position: relative;
+  box-shadow: 0px 3px 7px #67748a33;
+  height: 48px;
+  padding: 4px 8px 4px 4px;
+  border-radius: 8px;
+  gap: 10px;
+  background-color: #fff;
+}
+
+.balloom p {
+  color: #475569;
+  font-size: 14px;
+  font-family: "poppins";
+  align-items: center;
+}
+
+.balloom-img {
+  max-height: 40px;
+  width: 40px;
+  border-radius: 6.83px;
+  padding: 8px;
+  background-color: #eee5ff;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#balloom1 {
+  width: 290px;
+  top: -290px;
+  left: -20px;
+}
+
+#balloom2 {
+  width: 210px;
+  top: -570px;
+  left: 330px;
+}
+
+#balloom3 {
+  width: 239px;
+  top: -265px;
+  left: 350px;
+}
+
+#balloom1 .balloom-img {
+  background-image: url(../img/icons/earth.png);
+}
+#balloom2 .balloom-img {
+  background-image: url(../img/icons/circle-dollar-sign.svg);
+}
+#balloom3 .balloom-img {
+  background-image: url(../img/icons//user-round.png);
+}
+
+/* layout 2 */
+
+#container2 {
+  /* background-color: #475569; */
+  margin-left: auto;
+  margin-right: auto;
+  height: 512px;
+  width: 1217px;
+  margin-top: 70px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+#container2-texto {
+  background-color: #fff;
+  height: 256px;
+  width: 418px;
+  font-family: "poppins";
+}
+
+#container2-title1 {
+  margin: 0;
+  font-size: 16px;
+  color: #6729ff;
+  font-weight: 700;
+}
+#container2-title2 {
+  margin: 0;
+  color: #475569;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "outfit";
+}
+
+/*cor roxa em "Nullbank"*/
+#null-p {
+  color: #6729ff;
+}
+
+#container2-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #64748b;
+}
+
+#container2-link {
+  display: inline-flex;
+  height: 24px;
+  gap: 12px;
+  align-items: center;
+}
+
+#container2-information {
+  text-decoration: none;
+  color: #6729ff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+#container2-img {
+  background-image: url(../img/icons/arrow-right.png);
+  height: 24px;
+  width: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* cards */
+#container2-cards {
+  height: 512px;
+  width: 728px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.card2 {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #fff;
+  max-height: 160px;
+  width: 317px;
+  margin-bottom: 16px;
+}
+
+.card2-title {
+  align-items: center;
+  display: inline-flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 48px;
+  gap: 16px;
+}
+
+.card2-title p {
+  color: #6729ff;
+  text-align: center;
+  font-family: "outfit";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25.2px;
+}
+
+.card2-img {
+  background-color: #eee5ff;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 48px;
+  width: 48px;
+  border-radius: 8px;
+}
+
+.card2-description {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "poppins";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #64748b;
+}
+
+#rewards {
+  width: 380px;
+}
+
+#discount {
+  width: 330px;
+}
+
+#cashback {
+  width: 317px;
+}
+
+#international-card {
+  width: 395px;
+}
+
+#digital-card {
+  border: none;
+  width: 728px;
+  margin-bottom: 0;
+  background-color: #f3f2ff;
+}
+
+#digital-card-text {
+  width: 344px;
+}
+
+#digital-card .card2-img {
+  background-image: url(../img/icons/wallet-minimal.png);
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 48px;
+  width: 48px;
+  border-radius: 8px;
+}
+
+#rewards .card2-img {
+  background-image: url(../img/icons/gift.png);
+}
+
+#discount .card2-img {
+  background-image: url(../img/icons/percent.png);
+}
+
+#cashback .card2-img {
+  background-image: url(../img/icons/banknote.png);
+}
+
+#international-card .card2-img {
+  background-image: url(../img/icons/credit-card.png);
+}
+
+#cards-draws {
+  display: inline-flex;
+}
+
+#card-draw1 {
+  width: 150px;
+  height: 164.44px;
+  border-radius: 8px;
+  background-color: #fff;
+  position: relative;
+  top: -90px;
+  left: 420px;
+  transform: rotate(92.02deg);
+}
+
+#card-draw2 {
+  width: 150px;
+  height: 164.44px;
+  border-radius: 8px;
+  background-color: #6729ff;
+  position: relative;
+  top: -100px;
+  left: 380px;
+  transform: rotate(92.02deg);
+}
+
+/* tampando a parte de baixo */
+#card-draw3 {
+  position: relative;
+  background-color: #fff;
+  height: 70px;
+  width: 260px;
+  left: 200px;
+  top: -3px;
+}
+
+/* Layout 3 */
+#container3 {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 104px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid 000;
+  width: 1184px;
+  height: 637px;
+}
+
+#container3-baner {
+  height: 637px;
+  width: 592px;
+  align-content: end;
+}
+
+#container3-text {
+  width: 488px;
+  height: 637px;
+  font-family: "poppins";
+}
+
+#baner-img {
+  position: relative;
+  background-image: url(../img/app1.png);
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 609px;
+  width: 380px;
+  box-shadow: 0px 16px 32px #a3aec01a;
+}
+
+#baner-back-div {
+  height: 0;
+}
+
+#baner-back {
+  border-radius: 20px;
+  position: relative;
+  top: 246px;
+  background-color: #eee5ff;
+  height: 363px;
+  width: 592px;
+}
+
+#container3-title1 {
+  margin-top: 38px;
+  font-size: 16px;
+  color: #6729ff;
+  font-weight: 700;
+}
+
+#container3-title2 {
+  width: 416px;
+  margin: 0;
+  color: #475569;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "outfit";
+}
+
+#container3-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #64748b;
+}
+
+#cards3 {
+  margin-top: 64px;
+  height: 247px;
+}
+
+.card3 {
+  gap: 16px;
+  display: inline-flex;
+}
+
+.container3-icon {
+  background-color: #6729ff;
+  height: 48px;
+  width: 48px;
+  border-radius: 12px;
+}
+
+.card3-text {
+  display: inline;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.card3-text p {
+  margin: 0;
+}
+
+#container3-card1 .container3-icon {
+  background-image: url(../img/icons/banknote1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 60px;
+}
+
+#container3-card2 .container3-icon {
+  background-image: url(../img/icons/gift1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#container3-card3 .container3-icon {
+  background-image: url(../img/icons/shield.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card3-title {
+  color: #6729ff;
+  font-size: 20px;
+  font-family: "outfit";
+  font-weight: 600;
+}
+
+.card3-description {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #64748b;
+}
+
+#container4 {
+  align-content: end;
+  margin-top: 120px;
+  justify-content: space-between;
+  display: inline-flex;
+  width: 100%;
+  height: 534px;
+  background-color: #6729ff;
+}
+
+#container4-text {
+  margin-left: 112px;
+  height: 278px;
+  width: 539px;
+  align-items: center;
+  margin: auto;
+  color: #fff;
+  font-family: "poppins";
+}
+
+#container4-title1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 10%;
+}
+
+#container4-title2 {
+  margin: 0;
+  font-family: "outfit";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+#container4-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#container4-link {
+  margin-top: 48px;
+  display: inline-flex;
+  gap: 26px;
+}
+
+.container4-links a {
+  justify-content: space-around;
+  padding: 12px 16px;
+  border-radius: 8px;
+  height: 46.18px;
+  width: 155.07px;
+  background-color: #f3f2ff;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #6729ff;
+  text-decoration: none;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+#container4-google-img {
+  background-image: url(../img/icons/playStore.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+}
+
+#container4-apple-img {
+  background-image: url(../img/icons/apple.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+}
+
+#container4-baner {
+  height: 349.52px;
+  max-width: 574px;
+  margin: auto;
+  margin-bottom: 0;
+  margin-right: 112px;
+  align-content: end;
+  align-items: end;
+}
+
+#app-image3 {
+  position: relative;
+  left: -185px;
+  top: -453.3px;
+  background-image: url(../img/app2.png);
+  height: 453.3px;
+  width: 380px;
+  box-shadow: 0px 16px 35px #a3aec01a;
+}
+
+#app-image4 {
+  background-size: auto;
+  background-image: url(../img/app3.png);
+  height: 349.52px;
+  width: 390px;
+  box-shadow: 0px 16px 35px #a3aec01a;
+}
