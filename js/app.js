@@ -38,13 +38,12 @@ contatoButtomSubmit.addEventListener("click", () => {
   const emailInput = contatoEmail.value;
   const mensagemInput = contatoMesage.value;
 
-
   let validado = true;
 
   document.querySelectorAll(".mensagem-erro").forEach((msg) => msg.remove());
 
   if (validarNomes(nomeInput)) {
-    console.log("Nome " + nomeInput)
+    console.log("Nome " + nomeInput);
     // setItem(Name, nomeInput);
   } else {
     const erro = geraParagrafoErro("Ops, insira um nome válido!");
@@ -54,7 +53,7 @@ contatoButtomSubmit.addEventListener("click", () => {
   }
 
   if (validarNomes(lastNameInput)) {
-    console.log("Sobrenome " + lastNameInput)
+    console.log("Sobrenome " + lastNameInput);
     // setItem(LastName, lastNameInput);
   } else {
     const erro = geraParagrafoErro("Ops, insira um sobrenome válido!");
@@ -64,7 +63,7 @@ contatoButtomSubmit.addEventListener("click", () => {
   }
 
   if (validarEmail(emailInput)) {
-    console.log("Email " + emailInput)
+    console.log("Email " + emailInput);
     // setItem(Email, emailInput);
   } else {
     const erro = geraParagrafoErro("Ops, insira um e-mail válido!");
@@ -73,22 +72,27 @@ contatoButtomSubmit.addEventListener("click", () => {
     validado = false;
   }
 
-
   if (mensagemInput.trim() === "") {
     const erro = geraParagrafoErro("Ops, a mensagem está vazia!");
     erro.classList.add("mensagem-erro");
     contatoMesageDiv.appendChild(erro);
     validado = false;
-    } else {
-        console.log("mensagem: " + mensagemInput)
-        // setItem(Mensagem, mensagemInput);
-    }
+  } else {
+    console.log("mensagem: " + mensagemInput);
+    // setItem(Mensagem, mensagemInput);
+  }
 
-    if(validado === true){
-        console.log("valores armazenados")
-        localStorage.setItem("Name", nomeInput);
-        localStorage.setItem("LastName", lastNameInput);
-        localStorage.setItem("Email", emailInput);
-        localStorage.setItem("Mensagem", mensagemInput);
-    }
+  if (validado === true) {
+    console.log("valores armazenados");
+    localStorage.setItem("Name", nomeInput);
+    localStorage.setItem("LastName", lastNameInput);
+    localStorage.setItem("Email", emailInput);
+    localStorage.setItem("Mensagem", mensagemInput);
+
+    contatoName.value = ""
+    contatoLastname.value = ""
+    contatoEmail.value = ""
+    contatoMesage.value = ""
+    alert("dados submetidos")
+  }
 });
